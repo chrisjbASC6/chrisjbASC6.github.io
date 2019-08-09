@@ -1,0 +1,63 @@
+body{
+    background-color:lightslategray;
+}
+#lmao{
+    font-size:230%
+}
+#div1{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 90%;
+    color: white;
+    background-color:black;
+    text-align: center;
+
+
+}
+#div2{
+    font-family: inherit;
+    font-size: 90%;
+    background-color:black;
+    display:flex;
+    justify-content: space-around;
+
+}
+img{
+    width:130px;
+}
+
+a:link {
+    /* background-color:black; */
+    color:white;
+    padding: 15px 25px;
+    display:inline-block;
+}
+
+#featured{
+    display:flex;
+    flex-direction:column;
+   align-items:center;
+    
+}
+#featured img{
+    height:initial;
+    margin:center;
+    width: 200px;
+    position: absolute;
+    top:200px;
+    left:400px;
+}
+#aboutme{
+    color:red;
+    font-size:100%;
+}
+#div6{
+    color:black;
+}
+#div6:hover{
+    background-color:purple;
+}
+
+
+ #div2 div:hover {
+    background-color: white;
+  }
